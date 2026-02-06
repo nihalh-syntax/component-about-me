@@ -1,0 +1,49 @@
+
+.app {
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-color: cadetblue;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: bold;
+  height: 50px;
+  margin-top: 20px;
+  /* color: #333; */
+  /* flex-direction: column; */
+  /* position: absolute; */
+}
+
+.pic {  
+  margin: 20px; 
+}
+
+.profile {
+  display: flex;
+  /* align-items: top; */
+  /* margin: 120px; */
+}
+
+.align {
+  /* display: flex; */
+  flex-direction: column;
+  /* align-items: center; */
+  /* margin: 20px; */
+}
+
+.align_top {
+  /* display: flex; */
+  /* flex-direction: column; */
+  font-size: 16px;
+  /* color: #666; */
+  /* margin: 20px; */
+}
+
+.align_bottom {
+  /* display: flex; */
+  flex-direction: column;
+  align-items: flex-end;
+  font-weight: bold;
+}
