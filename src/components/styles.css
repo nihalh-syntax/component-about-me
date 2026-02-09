@@ -10,7 +10,7 @@
   font-size: 24px;
   font-weight: bold;
   height: 50px;
-  margin-top: 20px;
+  margin: 20px;
   /* color: #333; */
   /* flex-direction: column; */
   /* position: absolute; */
@@ -18,6 +18,9 @@
 
 .pic {  
   margin: 20px; 
+  width: 350px;
+  height: 350px;
+  /* object-fit: cover; */
 }
 
 .profile {
@@ -26,24 +29,45 @@
   /* margin: 120px; */
 }
 
+.about {
+  max-width: fit-content;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  font-family: sans-serif;
+  /* background-color: #ffffff; */
+}
+
+.main {
+  display: flex;
+  gap: 20px;
+}
+
 .align {
-  /* display: flex; */
+  display: flex;
   flex-direction: column;
-  /* align-items: center; */
-  /* margin: 20px; */
+  align-items: center;
+  gap: 20px;
+}
+
+.align_text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .align_top {
-  /* display: flex; */
-  /* flex-direction: column; */
-  font-size: 16px;
-  /* color: #666; */
-  /* margin: 20px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
 
 .align_bottom {
-  /* display: flex; */
+  display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  font-weight: bold;
+  align-items: center;
+  gap: 20px;
 }

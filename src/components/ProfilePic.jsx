@@ -1,10 +1,10 @@
 import React from 'react'
 import '../components/styles.css'
 
-const ProfilePic = () => {
+const ProfilePic = ({ imgUrl, altText }) => {
   return (
-    <div className='pic'>
-      <img src='./src/assets/keanu.jpg' alt='Profile Pic' />
+    <div>
+      <img src={imgUrl} alt={altText} className='profile-pic' />
     </div>
   )
 }
